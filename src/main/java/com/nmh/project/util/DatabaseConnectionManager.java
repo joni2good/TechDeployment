@@ -36,7 +36,7 @@ public class DatabaseConnectionManager {
 //        }
         user = "admin";//prop.getProperty("db.user");
         password = "admin123";//prop.getProperty("db.password");
-        url = "jdbc:mysql://techdeploymentdatabase.test.us-east-1.rds.amazonaws.com:3306/NMH_company";//prop.getProperty("db.url");
+        url = "jdbc:mysql://techdeploymentdatabase.cvdhltajzo1j.us-east-1.rds.amazonaws.com:3306/NMH_company";//prop.getProperty("db.url");
         try {
             conn = DriverManager.getConnection(url, user, password);
         }
